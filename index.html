@@ -83,7 +83,7 @@
                 
             }
            
-            .login_btnhover a[type=submit]:hover + .login_hint{
+            .login_btnhover > li:hover .login_hint{
                 display: block !important;
                
             }
@@ -200,18 +200,19 @@
                                 <nav class="navbar navbar-expand-lg h-100 p-0 ">
                                     <div class=" h-100 ">
                                       <div class="collapse navbar-collapse container-fluid h-100" id="navbarNav">
-                                        <ul class="navbar-nav  h-100 p-1">
-                                            <li class="nav-item  me-3 p-2 login_btnhover ">
-                                                <a class=" bg-white text-primary pt-1  ps-5 pe-5  login_btn h-100 " type="submit">Login</a>
-                                                <div class="login_hint bg-white shadow-sm position-absolute d- top-100 pt-3">
+                                        <ul class="navbar-nav  h-100 p-1 login_btnhover">
+                                            <li class="nav-item  me-3 p-2  " style="cursor: pointer;" >
+                                                <a  href="#" class=" bg-white text-primary pt-1  ps-5 pe-5  login_btn h-100 " type="submit">Login</a>
+                                                <div class="login_hint bg-white shadow-sm position-absolute d-none top-100 pt-3">
                                                     <i class="fa-solid fa-sort-up  position-absolute text-white fs-1 up_arrow"></i>
-                                                    <ul class="list-group list-group-flush ul_login" style="font-size: 0.9em;">
-                                                        <li class="list-group-item border-0 ps-3 m-0 mb-3">New customer?
-                                                            <a href="#" class=" ps-5 text-primary" style="text-decoration: none; background: none;">Sign Up</a>
+                                                    <ul class="list-group list-group-flush ul_login " style="font-size: 0.9em;">
+                                                        <li class="list-group-item border-0 ps-0 m-0 mb-3 " >
+                                                            <a href="#" style="background: none;" class="btn btn-link">New customer?</a>
+                                                            <a href="#" class=" ps-2 text-primary btn btn-link" style=" background: none;">Sign Up</a>
                                                         </li>
                                                         <li class="list-group-item border-0 p-0 ">
                                                             <a href="#" class="d-block p-3  border-top ">
-                                                              <i class="fa-solid fa-user text-white me-3 p-1 bg-primary " style=" border-radius: 100%; overflow: hidden; "></i>My Profile
+                                                              <i class="fa-solid fa-user text-white me-3 p-1 bg-primary rounded-5" style="  overflow: hidden; "></i>My Profile
                                                             </a>
                                                         </li>
                                                         <li class="list-group-item border-0 p-0 ">
@@ -231,12 +232,12 @@
                                                         </li>
                                                         <li class="list-group-item border-0 p-0  ">
                                                             <a href="#" class="d-block p-3  border-top  text-dark ">
-                                                                <i class="fa-sharp fa-solid fa-treasure-chest"></i>Rewards
+                                                                <i class="fa-solid fa-box me-4 text-primary"></i>Rewards
                                                             </a>
                                                         </li>
                                                         <li class="list-group-item border-0 p-0  ">
                                                             <a href="#" class="d-block p-3  border-top  text-dark ">
-                                                               Gift Cards
+                                                                <i class="fa-solid fa-gift text-primary me-4"></i> Gift Cards
                                                             </a>
                                                         </li>
                                                     </ul>
