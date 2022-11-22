@@ -1,0 +1,153 @@
+body{
+    font-family: 'Roboto',Arial, sans-serif;
+}
+.p_br{
+    border:1px dashed red;
+}
+
+.header_top{
+    height: 55px;
+    background: #2874F0;
+    z-index: 1000 ;
+}
+
+.header_bottom{
+    margin-top: 70px;
+    height: 110px;
+   
+}
+main{
+    height: 7450px;
+    background: #f1f3f6;
+}
+.footer_top{
+    height: 2640px;
+}
+.footer_bottom{
+    background: #172337;
+}
+.footer_bottom > div:first-child{
+    height:274px ;
+    border-bottom: 1px solid #878787;
+}
+.footer_bottom > div:last-child{
+    height:72px ;
+    border-bottom: 1px solid #878787;
+}
+.p_height{
+    height: 280px;
+}
+.p_plus{
+    background: url("./img/explore.png") right center/15px no-repeat;
+   
+}
+.headersearch_form input[type="text"]:focus{
+    box-shadow: none;
+}
+.search_hint{
+    height: 450px;
+   
+}
+.headersearch_form input[type="text"]:focus + div.search_hint{
+    display: block !important;
+}
+.ul_text a{
+    text-decoration: none;
+    color: #878787;
+}
+
+.ul_text a:hover{
+    background: #f4f8ff;
+}
+.search_img{
+    width: 30px;
+}
+.login_btn{
+    text-decoration: none;
+}
+.login_hint{
+    height: 370px;
+    width: 40%;
+    left: -30px;   
+    
+}
+
+.login_btnhover > li:hover .login_hint{
+    display: block !important;
+   
+}
+.up_arrow{
+    left: 110px;
+    top: -13px;
+   
+}
+.ul_login a{
+    text-decoration: none;
+    color: #000;
+}
+.ul_login a:hover{
+    background: #f4f8ff;
+}
+.fashion_ul{
+    position: relative;
+    
+}
+.fashion_hint{
+    width: 450px;
+    /* height:520px; */
+    z-index: 100000;
+    position: absolute;
+    left: 170px;
+
+    
+    
+}
+.fashion_up_arrow{
+    right:210px;
+    top: -10px;
+   
+}
+.menstop_submenu{
+    width: 232px;
+    position: absolute;
+    left: 200px;
+    top: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+.menstop_submenu li{
+    padding-top: 10px;
+}
+.menstop_submenu a:hover{
+    background: #f4f8ff;;
+}
+.fashion_hint a:hover {
+    background: #f4f8ff;;
+    
+
+}
+.waer_width > li{
+    width: 100%;
+    text-align: left;
+    padding-top: 15px;
+  
+}
+.bottom_submenu{
+    height: 98%;
+    margin-left: 50px;
+}
+
+
+.fashion_hover:hover > ul.fashion_hint  {
+    display: block !important;
+
+}
+ul > li.mens_bottom_menu:hover .bottom_submenu{
+    display: block !important;
+}
+
+@media (min-width:1400px){
+    .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
+        max-width: 1248px;
+    }
+}
