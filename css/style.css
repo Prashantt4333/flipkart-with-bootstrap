@@ -98,6 +98,7 @@ main{
     z-index: 100000;
     position: absolute;
     left: 170px;
+    color: #000;
 
     
     
@@ -105,6 +106,7 @@ main{
 .fashion_up_arrow{
     right:210px;
     top: -10px;
+    font-size: 4em;
    
 }
 .menstop_submenu{
@@ -114,6 +116,7 @@ main{
     top: 5px;
     text-decoration: none;
     list-style: none;
+   
 }
 .menstop_submenu li{
     padding-top: 10px;
@@ -130,11 +133,13 @@ main{
     width: 100%;
     text-align: left;
     padding-top: 15px;
+    
   
 }
 .bottom_submenu{
     height: 98%;
     margin-left: 50px;
+    
 }
 
 
@@ -144,6 +149,30 @@ main{
 }
 ul > li.mens_bottom_menu:hover .bottom_submenu{
     display: block !important;
+}
+ul > li.women_ETHNIC_submenu:hover .ETHNIC_submenu{
+    display: block !important;
+}
+ul > li.Women_WESTERN_submenu:hover .WESTERN_submenu{
+    display: block !important;
+}
+.position_rel{
+    position: relative;
+}
+.p_ab{
+    position: absolute;
+    font-size: 0.7em;
+    bottom:13px ;
+    left: 190px;
+    display: none;
+
+   
+    
+    
+}
+.fashion_hint li a:hover .p_ab{
+    display: block !important;
+   
 }
 
 @media (min-width:1400px){
