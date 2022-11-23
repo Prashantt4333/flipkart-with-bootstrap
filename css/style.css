@@ -99,10 +99,10 @@ main{
     position: absolute;
     left: 170px;
     color: #000;
-
-    
-    
+ 
 }
+
+
 .fashion_up_arrow{
     right:210px;
     top: -10px;
@@ -116,7 +116,7 @@ main{
     top: 5px;
     text-decoration: none;
     list-style: none;
-   
+    color: #000;
 }
 .menstop_submenu li{
     padding-top: 10px;
@@ -126,20 +126,15 @@ main{
 }
 .fashion_hint a:hover {
     background: #f4f8ff;;
-    
-
 }
 .waer_width > li{
     width: 100%;
     text-align: left;
-    padding-top: 15px;
-    
-  
+    padding-top: 15px;  
 }
 .bottom_submenu{
     height: 98%;
-    margin-left: 50px;
-    
+    margin-left: 50px;  
 }
 
 
@@ -165,16 +160,22 @@ ul > li.Women_WESTERN_submenu:hover .WESTERN_submenu{
     bottom:13px ;
     left: 190px;
     display: none;
-
-   
-    
-    
 }
 .fashion_hint li a:hover .p_ab{
     display: block !important;
    
 }
-
+.carousel-control-prev,.carousel-control-next{
+    width: 3%;
+    height: 40%;
+    opacity: 1 !important;
+    margin-top: 85px;
+    background: #fff;
+}
+.main_section_2{
+    height: 360px;
+    border: 1px dashed red;
+}
 @media (min-width:1400px){
     .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
         max-width: 1248px;
