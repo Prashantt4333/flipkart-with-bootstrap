@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto',Arial, sans-serif;
 }
 .p_br{
-    border:1px dashed red;
+    border:1px dashed #000;
 }
 
 .header_top{
@@ -167,14 +167,21 @@ ul > li.Women_WESTERN_submenu:hover .WESTERN_submenu{
 }
 .carousel-control-prev,.carousel-control-next{
     width: 3%;
-    height: 40%;
+    height: 45%;
     opacity: 1 !important;
     margin-top: 85px;
     background: #fff;
 }
 .main_section_2{
     height: 360px;
-    border: 1px dashed red;
+   
+}
+#carouselExampleControls2 .carousel-control-prev, #carouselExampleControls2 .carousel-control-next{
+    width:6%;
+    height: 38%;
+    opacity: 1 !important;
+    margin-top: 105px;
+    background: #fff;
 }
 @media (min-width:1400px){
     .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
