@@ -183,6 +183,9 @@ ul > li.Women_WESTERN_submenu:hover .WESTERN_submenu{
     margin-top: 105px;
     background: #fff;
 }
+.footer_bottom_BS{
+    max-width: 1400px !important;
+}
 @media (min-width:1400px){
     .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
         max-width: 1248px;
